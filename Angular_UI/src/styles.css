@@ -37,6 +37,6 @@ body {
   left: 18px;
 }
 
-.mat-mdc-raised-button:not(:disabled) {
+/* .mat-mdc-raised-button:not(:disabled) {
   background: linear-gradient(to top, #4e99ffed 0%, #8accff 100%);
-}
+} */
