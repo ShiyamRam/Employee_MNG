@@ -1,6 +1,8 @@
 <h2 class="heading">Employee Summary</h2>
 <div fxLayoutAlign="end center">
-  <button mat-raised-button [routerLink]="'/add-employee'">Add Employee</button>
+  <button [ngClass]="'btn btn-primary'" [routerLink]="'/add-employee'">
+    Add Employee
+  </button>
 </div>
 <div class="container">
   <table class="table table-striped">
